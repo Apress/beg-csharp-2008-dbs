@@ -1,0 +1,10 @@
+C:\Documents and Settings\Administrator\My Documents\Visual Studio Codename Orcas\Projects\Chapter13\FilterSort\bin\Debug\FilterSort.exe
+C:\Documents and Settings\Administrator\My Documents\Visual Studio Codename Orcas\Projects\Chapter13\FilterSort\bin\Debug\FilterSort.pdb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio Codename Orcas\Projects\Chapter13\FilterSort\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\My Documents\Visual Studio Codename Orcas\Projects\Chapter13\FilterSort\obj\Debug\FilterSort.exe
+C:\Documents and Settings\Administrator\My Documents\Visual Studio Codename Orcas\Projects\Chapter13\FilterSort\obj\Debug\FilterSort.pdb
+C:\Documents and Settings\Administrator\Desktop\Chapter13\FilterSort\bin\Debug\FilterSort.exe
+C:\Documents and Settings\Administrator\Desktop\Chapter13\FilterSort\bin\Debug\FilterSort.pdb
+C:\Documents and Settings\Administrator\Desktop\Chapter13\FilterSort\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\Desktop\Chapter13\FilterSort\obj\Debug\FilterSort.exe
+C:\Documents and Settings\Administrator\Desktop\Chapter13\FilterSort\obj\Debug\FilterSort.pdb

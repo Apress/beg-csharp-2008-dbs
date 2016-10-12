@@ -1,0 +1,5 @@
+C:\Documents and Settings\Administrator\My Documents\Visual Studio Codename Orcas\Projects\Chapter12\ResultSetInfo\bin\Debug\ResultSetInfo.exe
+C:\Documents and Settings\Administrator\My Documents\Visual Studio Codename Orcas\Projects\Chapter12\ResultSetInfo\bin\Debug\ResultSetInfo.pdb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio Codename Orcas\Projects\Chapter12\ResultSetInfo\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\My Documents\Visual Studio Codename Orcas\Projects\Chapter12\ResultSetInfo\obj\Debug\ResultSetInfo.exe
+C:\Documents and Settings\Administrator\My Documents\Visual Studio Codename Orcas\Projects\Chapter12\ResultSetInfo\obj\Debug\ResultSetInfo.pdb

@@ -1,0 +1,5 @@
+C:\Documents and Settings\Administrator\My Documents\Visual Studio Codename Orcas\Projects\Chapter09\OdbcProvider\bin\Debug\OdbcProvider.exe
+C:\Documents and Settings\Administrator\My Documents\Visual Studio Codename Orcas\Projects\Chapter09\OdbcProvider\bin\Debug\OdbcProvider.pdb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio Codename Orcas\Projects\Chapter09\OdbcProvider\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\My Documents\Visual Studio Codename Orcas\Projects\Chapter09\OdbcProvider\obj\Debug\OdbcProvider.exe
+C:\Documents and Settings\Administrator\My Documents\Visual Studio Codename Orcas\Projects\Chapter09\OdbcProvider\obj\Debug\OdbcProvider.pdb

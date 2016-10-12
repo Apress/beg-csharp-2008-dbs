@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio Codename Orcas
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataLooper", "DataLooper\DataLooper.csproj", "{B6D2A6B4-2D5F-44C8-9CE4-1E0F3AC4FD0B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrdinalIndexer", "OrdinalIndexer\OrdinalIndexer.csproj", "{369B112B-AB26-47ED-8CD2-E0ABAA949E20}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TypedAccessors", "TypedAccessors\TypedAccessors.csproj", "{C4E73291-9350-4535-86CE-B90F8FF78397}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResultSetInfo", "ResultSetInfo\ResultSetInfo.csproj", "{BCDC271E-5455-4ADE-A96A-6CFF76370FA5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SchemaTable", "SchemaTable\SchemaTable.csproj", "{260D3F59-4D1F-4C01-9307-CC56C761741F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultipleResults", "MultipleResults\MultipleResults.csproj", "{95422FD3-D653-4BFA-85AD-CFD04C2FA6B0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B6D2A6B4-2D5F-44C8-9CE4-1E0F3AC4FD0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6D2A6B4-2D5F-44C8-9CE4-1E0F3AC4FD0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6D2A6B4-2D5F-44C8-9CE4-1E0F3AC4FD0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6D2A6B4-2D5F-44C8-9CE4-1E0F3AC4FD0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{369B112B-AB26-47ED-8CD2-E0ABAA949E20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{369B112B-AB26-47ED-8CD2-E0ABAA949E20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{369B112B-AB26-47ED-8CD2-E0ABAA949E20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{369B112B-AB26-47ED-8CD2-E0ABAA949E20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4E73291-9350-4535-86CE-B90F8FF78397}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4E73291-9350-4535-86CE-B90F8FF78397}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4E73291-9350-4535-86CE-B90F8FF78397}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4E73291-9350-4535-86CE-B90F8FF78397}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCDC271E-5455-4ADE-A96A-6CFF76370FA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCDC271E-5455-4ADE-A96A-6CFF76370FA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCDC271E-5455-4ADE-A96A-6CFF76370FA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCDC271E-5455-4ADE-A96A-6CFF76370FA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{260D3F59-4D1F-4C01-9307-CC56C761741F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{260D3F59-4D1F-4C01-9307-CC56C761741F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{260D3F59-4D1F-4C01-9307-CC56C761741F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{260D3F59-4D1F-4C01-9307-CC56C761741F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95422FD3-D653-4BFA-85AD-CFD04C2FA6B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95422FD3-D653-4BFA-85AD-CFD04C2FA6B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95422FD3-D653-4BFA-85AD-CFD04C2FA6B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95422FD3-D653-4BFA-85AD-CFD04C2FA6B0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

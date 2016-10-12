@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqToSql", "LinqToSql\LinqToSql.csproj", "{18A2818A-E619-469C-996C-C87878331D29}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqToObjects", "Linq to Objects\LinqToObjects.csproj", "{C3027268-1758-49EE-A390-EF3CFC55832D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqToXml", "LinqToXml\LinqToXml.csproj", "{0BD4EA2F-55A9-4986-A8FF-CCE9FB8C0982}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{18A2818A-E619-469C-996C-C87878331D29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18A2818A-E619-469C-996C-C87878331D29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18A2818A-E619-469C-996C-C87878331D29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18A2818A-E619-469C-996C-C87878331D29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3027268-1758-49EE-A390-EF3CFC55832D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3027268-1758-49EE-A390-EF3CFC55832D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3027268-1758-49EE-A390-EF3CFC55832D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3027268-1758-49EE-A390-EF3CFC55832D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BD4EA2F-55A9-4986-A8FF-CCE9FB8C0982}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BD4EA2F-55A9-4986-A8FF-CCE9FB8C0982}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BD4EA2F-55A9-4986-A8FF-CCE9FB8C0982}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BD4EA2F-55A9-4986-A8FF-CCE9FB8C0982}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

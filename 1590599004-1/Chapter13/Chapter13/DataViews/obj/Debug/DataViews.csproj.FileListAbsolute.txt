@@ -1,0 +1,10 @@
+C:\Documents and Settings\Administrator\My Documents\Visual Studio Codename Orcas\Projects\Chapter13\DataViews\bin\Debug\DataViews.exe
+C:\Documents and Settings\Administrator\My Documents\Visual Studio Codename Orcas\Projects\Chapter13\DataViews\bin\Debug\DataViews.pdb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio Codename Orcas\Projects\Chapter13\DataViews\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\My Documents\Visual Studio Codename Orcas\Projects\Chapter13\DataViews\obj\Debug\DataViews.exe
+C:\Documents and Settings\Administrator\My Documents\Visual Studio Codename Orcas\Projects\Chapter13\DataViews\obj\Debug\DataViews.pdb
+C:\Documents and Settings\Administrator\Desktop\Chapter13\DataViews\bin\Debug\DataViews.exe
+C:\Documents and Settings\Administrator\Desktop\Chapter13\DataViews\bin\Debug\DataViews.pdb
+C:\Documents and Settings\Administrator\Desktop\Chapter13\DataViews\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\Desktop\Chapter13\DataViews\obj\Debug\DataViews.exe
+C:\Documents and Settings\Administrator\Desktop\Chapter13\DataViews\obj\Debug\DataViews.pdb

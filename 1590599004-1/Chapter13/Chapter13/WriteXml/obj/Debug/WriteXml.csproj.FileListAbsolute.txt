@@ -1,0 +1,10 @@
+C:\Documents and Settings\Administrator\My Documents\Visual Studio Codename Orcas\Projects\Chapter13\WriteXml\bin\Debug\WriteXml.exe
+C:\Documents and Settings\Administrator\My Documents\Visual Studio Codename Orcas\Projects\Chapter13\WriteXml\bin\Debug\WriteXml.pdb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio Codename Orcas\Projects\Chapter13\WriteXml\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\My Documents\Visual Studio Codename Orcas\Projects\Chapter13\WriteXml\obj\Debug\WriteXml.exe
+C:\Documents and Settings\Administrator\My Documents\Visual Studio Codename Orcas\Projects\Chapter13\WriteXml\obj\Debug\WriteXml.pdb
+C:\Documents and Settings\Administrator\Desktop\Chapter13\WriteXml\bin\Debug\WriteXml.exe
+C:\Documents and Settings\Administrator\Desktop\Chapter13\WriteXml\bin\Debug\WriteXml.pdb
+C:\Documents and Settings\Administrator\Desktop\Chapter13\WriteXml\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\Desktop\Chapter13\WriteXml\obj\Debug\WriteXml.exe
+C:\Documents and Settings\Administrator\Desktop\Chapter13\WriteXml\obj\Debug\WriteXml.pdb

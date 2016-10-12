@@ -1,0 +1,5 @@
+C:\Documents and Settings\Administrator\My Documents\Visual Studio Codename Orcas\Projects\Chapter12\OrdinalIndexer\bin\Debug\OrdinalIndexer.exe
+C:\Documents and Settings\Administrator\My Documents\Visual Studio Codename Orcas\Projects\Chapter12\OrdinalIndexer\bin\Debug\OrdinalIndexer.pdb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio Codename Orcas\Projects\Chapter12\OrdinalIndexer\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\My Documents\Visual Studio Codename Orcas\Projects\Chapter12\OrdinalIndexer\obj\Debug\OrdinalIndexer.exe
+C:\Documents and Settings\Administrator\My Documents\Visual Studio Codename Orcas\Projects\Chapter12\OrdinalIndexer\obj\Debug\OrdinalIndexer.pdb

@@ -1,0 +1,37 @@
+private void btnSubmit_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Hello" + ' ' + txtFname.Text + ' ' 
+            + txtLname.Text + ' ' + "Welcome to the Windows Application","Welcome");
+
+        }
+
+
+private void btnAdd_Click(object sender, EventArgs e)
+        {
+            lstName.Items.Add(txtName.Text);
+            txtName.Clear();
+
+        }
+
+Application.Run(new AddNames());
+
+
+WinApp wa = new WinApp();
+wa.Show();
+
+
+AddNames an = new AddNames();
+an.Show();
+
+
+Application.Exit();
+
+
+WinApp wa = new WinApp();
+wa.MdiParent = this;
+wa.Show();
+
+
+AddNames an = new AddNames();
+an.MdiParent();
+an.Show();

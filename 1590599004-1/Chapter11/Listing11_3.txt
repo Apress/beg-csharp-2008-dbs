@@ -1,0 +1,57 @@
+using System;
+using System.Data;
+using System.Data.SqlClient;
+
+namespace Chapter11
+{
+   class CommandReader
+   {
+      static void Main()
+      {
+         // create connection
+         SqlConnection conn = new SqlConnection(@"
+            server = .\sqlexpress;
+            integrated security = true;
+            database = northwind
+         ");
+
+         // create command (with both text and connection)
+         string sql = @"
+            select
+               firstname,
+               lastname
+            from
+               employees
+         ";
+
+         SqlCommand cmd = new SqlCommand(sql, conn);
+         Console.WriteLine("Command created and connected.");
+
+         try
+         {
+            // open connection
+            conn.Open();
+
+            // execute query
+            SqlDataReader rdr = cmd.ExecuteReader();
+
+            while (rdr.Read())
+            {
+               Console.WriteLine("Employee name: {0} {1}",
+                  rdr.GetValue(0),
+                  rdr.GetValue(1)
+               );
+            }
+        }
+         catch (SqlException ex)
+         {
+            Console.WriteLine(ex.ToString());
+         }
+         finally
+         {
+            conn.Close();
+            Console.WriteLine("Connection Closed.");
+         }
+      }
+   }
+}

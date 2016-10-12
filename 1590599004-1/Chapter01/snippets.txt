@@ -1,0 +1,15 @@
+sqlcmd -S .\sqlexpress -i instnwnd.sql
+
+
+
+
+
+sqlcmd -S .\sqlexpress
+
+
+
+
+
+use northwind
+select count(*) from employees
+go

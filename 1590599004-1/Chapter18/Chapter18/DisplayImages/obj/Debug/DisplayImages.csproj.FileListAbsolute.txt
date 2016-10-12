@@ -1,0 +1,8 @@
+C:\Documents and Settings\Administrator\My Documents\Visual Studio Codename Orcas\Projects\Chapter18\DisplayImages\bin\Debug\DisplayImages.exe
+C:\Documents and Settings\Administrator\My Documents\Visual Studio Codename Orcas\Projects\Chapter18\DisplayImages\bin\Debug\DisplayImages.pdb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio Codename Orcas\Projects\Chapter18\DisplayImages\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\My Documents\Visual Studio Codename Orcas\Projects\Chapter18\DisplayImages\obj\Debug\DisplayImages.Properties.Resources.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio Codename Orcas\Projects\Chapter18\DisplayImages\obj\Debug\DisplayImages.csproj.GenerateResource.Cache
+C:\Documents and Settings\Administrator\My Documents\Visual Studio Codename Orcas\Projects\Chapter18\DisplayImages\obj\Debug\DisplayImages.exe
+C:\Documents and Settings\Administrator\My Documents\Visual Studio Codename Orcas\Projects\Chapter18\DisplayImages\obj\Debug\DisplayImages.pdb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio Codename Orcas\Projects\Chapter18\DisplayImages\obj\Debug\DisplayImages.DisplayImages.resources

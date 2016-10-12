@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio Codename Orcas
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DisplayImages", "DisplayImages\DisplayImages.csproj", "{E4A19AF6-751F-4E6C-8362-533831AC2BA1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoadText", "LoadText\LoadText.csproj", "{FB209874-4BD3-4F92-B590-346E4DA9A03C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RetrieveText", "RetrieveText\RetrieveText.csproj", "{99A65A16-EC21-4064-9A3E-EEE9365F41CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoadImages", "LoadImages\LoadImages.csproj", "{651CF3DE-0035-415D-9272-C652CB7CBA33}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E4A19AF6-751F-4E6C-8362-533831AC2BA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4A19AF6-751F-4E6C-8362-533831AC2BA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4A19AF6-751F-4E6C-8362-533831AC2BA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4A19AF6-751F-4E6C-8362-533831AC2BA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB209874-4BD3-4F92-B590-346E4DA9A03C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB209874-4BD3-4F92-B590-346E4DA9A03C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB209874-4BD3-4F92-B590-346E4DA9A03C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB209874-4BD3-4F92-B590-346E4DA9A03C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99A65A16-EC21-4064-9A3E-EEE9365F41CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99A65A16-EC21-4064-9A3E-EEE9365F41CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99A65A16-EC21-4064-9A3E-EEE9365F41CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99A65A16-EC21-4064-9A3E-EEE9365F41CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{651CF3DE-0035-415D-9272-C652CB7CBA33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{651CF3DE-0035-415D-9272-C652CB7CBA33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{651CF3DE-0035-415D-9272-C652CB7CBA33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{651CF3DE-0035-415D-9272-C652CB7CBA33}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

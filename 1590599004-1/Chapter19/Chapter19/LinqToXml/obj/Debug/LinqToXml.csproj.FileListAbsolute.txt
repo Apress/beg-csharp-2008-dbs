@@ -1,0 +1,5 @@
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Chapter19\LinqToXml\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Chapter19\LinqToXml\bin\Debug\LinqToXml.exe
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Chapter19\LinqToXml\bin\Debug\LinqToXml.pdb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Chapter19\LinqToXml\obj\Debug\LinqToXml.exe
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Chapter19\LinqToXml\obj\Debug\LinqToXml.pdb

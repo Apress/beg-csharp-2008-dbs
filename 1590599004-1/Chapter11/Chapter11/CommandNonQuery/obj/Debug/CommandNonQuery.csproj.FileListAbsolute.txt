@@ -1,0 +1,10 @@
+C:\Documents and Settings\Administrator\My Documents\Visual Studio Codename Orcas\Projects\Chapter11\CommandNonQuery\bin\Debug\CommandNonQuery.exe
+C:\Documents and Settings\Administrator\My Documents\Visual Studio Codename Orcas\Projects\Chapter11\CommandNonQuery\bin\Debug\CommandNonQuery.pdb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio Codename Orcas\Projects\Chapter11\CommandNonQuery\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\My Documents\Visual Studio Codename Orcas\Projects\Chapter11\CommandNonQuery\obj\Debug\CommandNonQuery.exe
+C:\Documents and Settings\Administrator\My Documents\Visual Studio Codename Orcas\Projects\Chapter11\CommandNonQuery\obj\Debug\CommandNonQuery.pdb
+C:\Documents and Settings\Administrator\Desktop\Chapter11\CommandNonQuery\bin\Debug\CommandNonQuery.exe
+C:\Documents and Settings\Administrator\Desktop\Chapter11\CommandNonQuery\bin\Debug\CommandNonQuery.pdb
+C:\Documents and Settings\Administrator\Desktop\Chapter11\CommandNonQuery\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\Desktop\Chapter11\CommandNonQuery\obj\Debug\CommandNonQuery.exe
+C:\Documents and Settings\Administrator\Desktop\Chapter11\CommandNonQuery\obj\Debug\CommandNonQuery.pdb

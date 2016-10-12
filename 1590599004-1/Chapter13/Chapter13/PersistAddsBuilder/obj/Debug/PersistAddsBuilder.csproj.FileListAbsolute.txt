@@ -1,0 +1,10 @@
+C:\Documents and Settings\Administrator\My Documents\Visual Studio Codename Orcas\Projects\Chapter13\PersistAddsBuilder\bin\Debug\PersistAddsBuilder.exe
+C:\Documents and Settings\Administrator\My Documents\Visual Studio Codename Orcas\Projects\Chapter13\PersistAddsBuilder\bin\Debug\PersistAddsBuilder.pdb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio Codename Orcas\Projects\Chapter13\PersistAddsBuilder\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\My Documents\Visual Studio Codename Orcas\Projects\Chapter13\PersistAddsBuilder\obj\Debug\PersistAddsBuilder.exe
+C:\Documents and Settings\Administrator\My Documents\Visual Studio Codename Orcas\Projects\Chapter13\PersistAddsBuilder\obj\Debug\PersistAddsBuilder.pdb
+C:\Documents and Settings\Administrator\Desktop\Chapter13\PersistAddsBuilder\bin\Debug\PersistAddsBuilder.exe
+C:\Documents and Settings\Administrator\Desktop\Chapter13\PersistAddsBuilder\bin\Debug\PersistAddsBuilder.pdb
+C:\Documents and Settings\Administrator\Desktop\Chapter13\PersistAddsBuilder\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\Desktop\Chapter13\PersistAddsBuilder\obj\Debug\PersistAddsBuilder.exe
+C:\Documents and Settings\Administrator\Desktop\Chapter13\PersistAddsBuilder\obj\Debug\PersistAddsBuilder.pdb

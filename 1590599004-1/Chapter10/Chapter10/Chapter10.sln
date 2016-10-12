@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio Codename Orcas
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConnectionDisplay", "ConnectionDisplay\ConnectionDisplay.csproj", "{78C53AF5-A01C-4AB0-9387-82445DDEB8BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConnectionOleDb", "ConnectionOle\ConnectionOleDb.csproj", "{D7C00C52-DFD4-44BE-82EA-D7EEF8711F50}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConnectionSQL", "ConnectionSql\ConnectionSQL.csproj", "{ACF86559-93A1-4474-A872-3F6AD7781D3A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{78C53AF5-A01C-4AB0-9387-82445DDEB8BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78C53AF5-A01C-4AB0-9387-82445DDEB8BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78C53AF5-A01C-4AB0-9387-82445DDEB8BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78C53AF5-A01C-4AB0-9387-82445DDEB8BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7C00C52-DFD4-44BE-82EA-D7EEF8711F50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7C00C52-DFD4-44BE-82EA-D7EEF8711F50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7C00C52-DFD4-44BE-82EA-D7EEF8711F50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7C00C52-DFD4-44BE-82EA-D7EEF8711F50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACF86559-93A1-4474-A872-3F6AD7781D3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACF86559-93A1-4474-A872-3F6AD7781D3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACF86559-93A1-4474-A872-3F6AD7781D3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACF86559-93A1-4474-A872-3F6AD7781D3A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

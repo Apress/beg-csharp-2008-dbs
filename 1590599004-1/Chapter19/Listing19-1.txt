@@ -1,0 +1,22 @@
+using System;
+using System.Text;
+using System.Linq;
+using System.Collections.Generic;
+
+namespace Chapter19
+{
+    class SimpleLinqToObjects
+    {
+        static void Main(string[] args)
+        {
+            string[] names = { "James Huddleston", "Pearly", "Rupali Agarwal", "Fabio Claudio", "Vamika Agarwal", "Ami Knox", "Vidya Vrat Agarwal" };
+            IEnumerable<string> namesOfPeople = from name in names
+                                                where name.Length <= 16
+                                                select name;
+                    foreach (var name in namesOfPeople)
+                    Console.WriteLine(name);
+             
+        }
+
+    }
+}

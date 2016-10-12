@@ -1,0 +1,36 @@
+using System;
+using System.Data;
+using System.Data.SqlClient;
+
+namespace Chapter10
+{
+   class ConnectionSql
+   {
+      static void Main(string[] args)
+      {
+         // Connection string
+         string connString = @"
+            server = .\sqlexpress;
+            integrated security = true;
+         ";
+
+         // Create connection
+         SqlConnection conn = new SqlConnection(connString); 
+
+         try {
+            // Open connection
+            conn.Open();
+            Console.WriteLine("Connection opened.");
+         }
+         catch (SqlException e) {
+            // Display error
+            Console.WriteLine("Error: " + e);
+         }
+         finally {
+            // close connection
+            conn.Close();
+            Console.WriteLine("Connection closed.");
+         } 
+      }
+   }
+}

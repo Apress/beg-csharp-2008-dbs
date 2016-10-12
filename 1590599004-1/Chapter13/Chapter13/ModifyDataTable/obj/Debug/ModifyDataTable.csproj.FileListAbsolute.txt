@@ -1,0 +1,10 @@
+C:\Documents and Settings\Administrator\My Documents\Visual Studio Codename Orcas\Projects\Chapter13\ModifyDataTable\bin\Debug\ModifyDataTable.exe
+C:\Documents and Settings\Administrator\My Documents\Visual Studio Codename Orcas\Projects\Chapter13\ModifyDataTable\bin\Debug\ModifyDataTable.pdb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio Codename Orcas\Projects\Chapter13\ModifyDataTable\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\My Documents\Visual Studio Codename Orcas\Projects\Chapter13\ModifyDataTable\obj\Debug\ModifyDataTable.exe
+C:\Documents and Settings\Administrator\My Documents\Visual Studio Codename Orcas\Projects\Chapter13\ModifyDataTable\obj\Debug\ModifyDataTable.pdb
+C:\Documents and Settings\Administrator\Desktop\Chapter13\ModifyDataTable\bin\Debug\ModifyDataTable.exe
+C:\Documents and Settings\Administrator\Desktop\Chapter13\ModifyDataTable\bin\Debug\ModifyDataTable.pdb
+C:\Documents and Settings\Administrator\Desktop\Chapter13\ModifyDataTable\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\Desktop\Chapter13\ModifyDataTable\obj\Debug\ModifyDataTable.exe
+C:\Documents and Settings\Administrator\Desktop\Chapter13\ModifyDataTable\obj\Debug\ModifyDataTable.pdb

@@ -1,0 +1,58 @@
+select * from employees
+
+
+select employeeid, firstname,lastname
+from employees
+
+
+
+where country = 'USA'
+
+
+
+select orderid,employeeid,customerid,orderdate,shipcountry
+from orders
+where employeeid = 5 and shipcountry in ('Brazil', 'France')
+order by shipcountry asc,orderdate asc
+
+
+
+select orderid,employeeid,customerid,orderdate,shipcountry 
+into #myorder
+from orders
+
+
+select * from #myorder
+
+select orderid,employeeid,customerid,orderdate,shipcountry 
+into #myemptyorder
+from orders
+where 0=1
+
+
+select * from #myemptyorder
+
+insert into shippers( companyname, phone )
+values ('GUIPundits', '+91 9820801756')
+
+
+
+update shippers
+set companyname = 'PearlHRSolution'
+where shipperid = 4
+
+
+
+update shippers
+set companyname = 'PearlHRSolution',
+phone = '+91 9819133949'
+where shipperid = 4
+
+
+delete from shippers
+where shipperid = 4
+
+
+
+
+

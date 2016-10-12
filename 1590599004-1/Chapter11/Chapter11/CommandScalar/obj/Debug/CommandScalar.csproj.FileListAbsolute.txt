@@ -1,0 +1,10 @@
+C:\Documents and Settings\Administrator\My Documents\Visual Studio Codename Orcas\Projects\Chapter11\CommandScalar\bin\Debug\CommandScalar.exe
+C:\Documents and Settings\Administrator\My Documents\Visual Studio Codename Orcas\Projects\Chapter11\CommandScalar\bin\Debug\CommandScalar.pdb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio Codename Orcas\Projects\Chapter11\CommandScalar\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\My Documents\Visual Studio Codename Orcas\Projects\Chapter11\CommandScalar\obj\Debug\CommandScalar.exe
+C:\Documents and Settings\Administrator\My Documents\Visual Studio Codename Orcas\Projects\Chapter11\CommandScalar\obj\Debug\CommandScalar.pdb
+C:\Documents and Settings\Administrator\Desktop\Chapter11\CommandScalar\bin\Debug\CommandScalar.exe
+C:\Documents and Settings\Administrator\Desktop\Chapter11\CommandScalar\bin\Debug\CommandScalar.pdb
+C:\Documents and Settings\Administrator\Desktop\Chapter11\CommandScalar\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\Desktop\Chapter11\CommandScalar\obj\Debug\CommandScalar.exe
+C:\Documents and Settings\Administrator\Desktop\Chapter11\CommandScalar\obj\Debug\CommandScalar.pdb

@@ -1,0 +1,10 @@
+C:\Documents and Settings\Administrator\My Documents\Visual Studio Codename Orcas\Projects\ConsoleApplication1\ConnectionDisplay\bin\Debug\ConnectionDisplay.exe
+C:\Documents and Settings\Administrator\My Documents\Visual Studio Codename Orcas\Projects\ConsoleApplication1\ConnectionDisplay\bin\Debug\ConnectionDisplay.pdb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio Codename Orcas\Projects\ConsoleApplication1\ConnectionDisplay\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\My Documents\Visual Studio Codename Orcas\Projects\ConsoleApplication1\ConnectionDisplay\obj\Debug\ConnectionDisplay.exe
+C:\Documents and Settings\Administrator\My Documents\Visual Studio Codename Orcas\Projects\ConsoleApplication1\ConnectionDisplay\obj\Debug\ConnectionDisplay.pdb
+C:\Documents and Settings\Administrator\Desktop\Chapter10\ConnectionDisplay\obj\Debug\ConnectionDisplay.exe
+C:\Documents and Settings\Administrator\Desktop\Chapter10\ConnectionDisplay\obj\Debug\ConnectionDisplay.pdb
+C:\Documents and Settings\Administrator\Desktop\Chapter10\ConnectionDisplay\bin\Debug\ConnectionDisplay.exe
+C:\Documents and Settings\Administrator\Desktop\Chapter10\ConnectionDisplay\bin\Debug\ConnectionDisplay.pdb
+C:\Documents and Settings\Administrator\Desktop\Chapter10\ConnectionDisplay\obj\Debug\ResolveAssemblyReference.cache

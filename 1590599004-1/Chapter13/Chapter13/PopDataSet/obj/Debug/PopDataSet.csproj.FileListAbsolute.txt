@@ -1,0 +1,10 @@
+C:\Documents and Settings\Administrator\My Documents\Visual Studio Codename Orcas\Projects\Chapter13\PopDataSet\bin\Debug\Chapter13.exe
+C:\Documents and Settings\Administrator\My Documents\Visual Studio Codename Orcas\Projects\Chapter13\PopDataSet\bin\Debug\Chapter13.pdb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio Codename Orcas\Projects\Chapter13\PopDataSet\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\My Documents\Visual Studio Codename Orcas\Projects\Chapter13\PopDataSet\obj\Debug\Chapter13.exe
+C:\Documents and Settings\Administrator\My Documents\Visual Studio Codename Orcas\Projects\Chapter13\PopDataSet\obj\Debug\Chapter13.pdb
+C:\Documents and Settings\Administrator\Desktop\Chapter13\PopDataSet\obj\Debug\Chapter13.exe
+C:\Documents and Settings\Administrator\Desktop\Chapter13\PopDataSet\obj\Debug\Chapter13.pdb
+C:\Documents and Settings\Administrator\Desktop\Chapter13\PopDataSet\bin\Debug\Chapter13.exe
+C:\Documents and Settings\Administrator\Desktop\Chapter13\PopDataSet\bin\Debug\Chapter13.pdb
+C:\Documents and Settings\Administrator\Desktop\Chapter13\PopDataSet\obj\Debug\ResolveAssemblyReference.cache

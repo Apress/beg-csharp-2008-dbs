@@ -1,0 +1,38 @@
+using System.Data.SqlClient
+
+
+
+
+
+create procedure sp_DbException_1
+as
+   set nocount on
+
+   declare @ordercount int
+
+   select
+      @ordercount = count(*)
+   from
+      orders
+
+   if @ordercount > 10
+      raiserror (
+         'Orders Count is greater than 10 - Notify the Business Manager',
+         16,
+         1
+      )
+
+
+
+
+
+create procedure sp_DBException_2
+as
+   set nocount on
+
+   insert into employees
+   (
+      employeeid,
+      firstname
+   )
+   values (50, 'Cinderella')

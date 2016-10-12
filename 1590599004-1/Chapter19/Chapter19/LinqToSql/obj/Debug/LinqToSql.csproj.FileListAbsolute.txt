@@ -1,0 +1,5 @@
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Chapter19\LinqToSql\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Chapter19\LinqToSql\bin\Debug\LinqToSql.exe
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Chapter19\LinqToSql\bin\Debug\LinqToSql.pdb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Chapter19\LinqToSql\obj\Debug\LinqToSql.exe
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Chapter19\LinqToSql\obj\Debug\LinqToSql.pdb

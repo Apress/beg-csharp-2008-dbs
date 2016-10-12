@@ -1,0 +1,73 @@
+            // connect command to connection
+            cmd.Connection = conn;
+            Console.WriteLine("Connected command to this connection.");
+
+
+
+
+
+            // associate SQL with command
+            cmd.CommandText = @"
+               select
+                  count(*)
+               from
+                  employees
+            ";
+            Console.WriteLine(
+               "Ready to execute SQL: {0}"
+             , cmd.CommandText
+            ); 
+
+
+
+
+
+            // create a command with both text and connection
+            string sql = @"
+               select
+                  count(*)
+               from
+                  employees
+            ";
+
+            SqlCommand cmd = new SqlCommand(sql, conn);
+
+
+
+
+string fname = "Zachariah";
+string lname = "Zinn";
+string vals = "('" + fname + "'," + "'" + lname +"')" ;
+string sqlins = @"
+   insert into employees
+   (
+      firstname,
+      lastname
+   )
+   values"
+ + vals
+;
+
+
+
+
+
+            // execute nonquery to insert an employee
+            cmdnon.Parameters["@fname"].Value = fname;
+            cmdnon.Parameters["@lname"].Value = lname;
+            Console.WriteLine(
+               "Executing statement {0}"
+             , cmdnon.CommandText
+            );
+            cmdnon.Prepare();
+            cmdnon.ExecuteNonQuery();
+            Console.WriteLine(
+               "After INSERT: Number of employees {0}\n"
+              , cmdqry.ExecuteScalar()
+            );
+
+
+
+
+
+

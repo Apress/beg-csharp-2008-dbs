@@ -1,0 +1,18 @@
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Chapter20\EntityDataModel\bin\Debug\EntityDataModel.exe.config
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Chapter20\EntityDataModel\bin\Debug\EntityDataModel.exe
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Chapter20\EntityDataModel\bin\Debug\EntityDataModel.pdb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Chapter20\EntityDataModel\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Chapter20\EntityDataModel\obj\Debug\EntityDataModel.Properties.Resources.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Chapter20\EntityDataModel\obj\Debug\EntityDataModel.csproj.GenerateResource.Cache
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Chapter20\EntityDataModel\obj\Debug\EntityDataModel.exe
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Chapter20\EntityDataModel\obj\Debug\EntityDataModel.pdb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Chapter20\EntityDataModel\obj\Debug\EntityDataModel.Form1.resources
+D:\Apress\C# 2008\Production\Ch20\Code\Chapter20\EntityDataModel\bin\Debug\EntityDataModel.exe.config
+D:\Apress\C# 2008\Production\Ch20\Code\Chapter20\EntityDataModel\obj\Debug\EntityDataModel.exe
+D:\Apress\C# 2008\Production\Ch20\Code\Chapter20\EntityDataModel\obj\Debug\EntityDataModel.pdb
+D:\Apress\C# 2008\Production\Ch20\Code\Chapter20\EntityDataModel\bin\Debug\EntityDataModel.exe
+D:\Apress\C# 2008\Production\Ch20\Code\Chapter20\EntityDataModel\bin\Debug\EntityDataModel.pdb
+D:\Apress\C# 2008\Production\Ch20\Code\Chapter20\EntityDataModel\obj\Debug\ResolveAssemblyReference.cache
+D:\Apress\C# 2008\Production\Ch20\Code\Chapter20\EntityDataModel\obj\Debug\EntityDataModel.Form1.resources
+D:\Apress\C# 2008\Production\Ch20\Code\Chapter20\EntityDataModel\obj\Debug\EntityDataModel.Properties.Resources.resources
+D:\Apress\C# 2008\Production\Ch20\Code\Chapter20\EntityDataModel\obj\Debug\EntityDataModel.csproj.GenerateResource.Cache

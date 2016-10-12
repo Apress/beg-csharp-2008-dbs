@@ -1,0 +1,10 @@
+C:\Documents and Settings\Administrator\My Documents\Visual Studio Codename Orcas\Projects\Chapter13\PersistDeletes\bin\Debug\PersistDeletes.exe
+C:\Documents and Settings\Administrator\My Documents\Visual Studio Codename Orcas\Projects\Chapter13\PersistDeletes\bin\Debug\PersistDeletes.pdb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio Codename Orcas\Projects\Chapter13\PersistDeletes\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\My Documents\Visual Studio Codename Orcas\Projects\Chapter13\PersistDeletes\obj\Debug\PersistDeletes.exe
+C:\Documents and Settings\Administrator\My Documents\Visual Studio Codename Orcas\Projects\Chapter13\PersistDeletes\obj\Debug\PersistDeletes.pdb
+C:\Documents and Settings\Administrator\Desktop\Chapter13\PersistDeletes\bin\Debug\PersistDeletes.exe
+C:\Documents and Settings\Administrator\Desktop\Chapter13\PersistDeletes\bin\Debug\PersistDeletes.pdb
+C:\Documents and Settings\Administrator\Desktop\Chapter13\PersistDeletes\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\Desktop\Chapter13\PersistDeletes\obj\Debug\PersistDeletes.exe
+C:\Documents and Settings\Administrator\Desktop\Chapter13\PersistDeletes\obj\Debug\PersistDeletes.pdb

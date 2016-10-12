@@ -1,0 +1,16 @@
+C:\Documents and Settings\Administrator\My Documents\Visual Studio Codename Orcas\Projects\Chapter16\Chapter16\bin\Debug\Chapter16.exe
+C:\Documents and Settings\Administrator\My Documents\Visual Studio Codename Orcas\Projects\Chapter16\Chapter16\bin\Debug\Chapter16.pdb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio Codename Orcas\Projects\Chapter16\Chapter16\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\My Documents\Visual Studio Codename Orcas\Projects\Chapter16\Chapter16\obj\Debug\Chapter16.Form1.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio Codename Orcas\Projects\Chapter16\Chapter16\obj\Debug\Chapter16.Properties.Resources.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio Codename Orcas\Projects\Chapter16\Chapter16\obj\Debug\AdoNetExceptions.csproj.GenerateResource.Cache
+C:\Documents and Settings\Administrator\My Documents\Visual Studio Codename Orcas\Projects\Chapter16\Chapter16\obj\Debug\Chapter16.exe
+C:\Documents and Settings\Administrator\My Documents\Visual Studio Codename Orcas\Projects\Chapter16\Chapter16\obj\Debug\Chapter16.pdb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio Codename Orcas\Projects\Chapter16\AdoNetExceptions\obj\Debug\Chapter16.exe
+C:\Documents and Settings\Administrator\My Documents\Visual Studio Codename Orcas\Projects\Chapter16\AdoNetExceptions\obj\Debug\Chapter16.pdb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio Codename Orcas\Projects\Chapter16\AdoNetExceptions\bin\Debug\Chapter16.exe
+C:\Documents and Settings\Administrator\My Documents\Visual Studio Codename Orcas\Projects\Chapter16\AdoNetExceptions\bin\Debug\Chapter16.pdb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio Codename Orcas\Projects\Chapter16\AdoNetExceptions\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\My Documents\Visual Studio Codename Orcas\Projects\Chapter16\AdoNetExceptions\obj\Debug\Chapter16.Form1.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio Codename Orcas\Projects\Chapter16\AdoNetExceptions\obj\Debug\Chapter16.Properties.Resources.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio Codename Orcas\Projects\Chapter16\AdoNetExceptions\obj\Debug\AdoNetExceptions.csproj.GenerateResource.Cache

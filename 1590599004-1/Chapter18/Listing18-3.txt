@@ -1,0 +1,12 @@
+         images = new Images();
+
+         if (images.GetRow())       
+         {
+            this.textBox1.Text = images.GetFilename();
+            this.pictureBox1.Image = (Image)images.GetImage();
+         }
+         else
+         {
+            this.textBox1.Text = "DONE";
+            this.pictureBox1.Image = null;
+         }

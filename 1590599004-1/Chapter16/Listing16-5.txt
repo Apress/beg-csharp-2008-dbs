@@ -1,0 +1,53 @@
+         // Create connection
+         SqlConnection conn = new SqlConnection(@"
+            data source = .\sqlexpress;
+            integrated security = true;
+            database = northwind
+         ");
+
+         // Create command
+         SqlCommand cmd = conn.CreateCommand();
+
+         // Specify stored procedure to be executed
+         cmd.CommandType = CommandType.StoredProcedure;
+         cmd.CommandText = "sp_DbException_2";
+
+         try
+         {
+            // Open connection
+            conn.Open();
+
+            // Execute stored procedure
+            cmd.ExecuteNonQuery();
+         }
+         catch (SqlException ex)
+         {
+            string str;
+            str = "Source: " + ex.Source;
+            str += "\n"+ "Number: "+ ex.Number.ToString();
+            str += "\n"+ "Message: "+ ex.Message;
+            str += "\n"+ "Class: "+ ex.Class.ToString ();
+            str += "\n"+ "Procedure: "+ ex.Procedure.ToString();
+            str += "\n"+ "Line Number: "+ex.LineNumber.ToString();
+            str += "\n"+ "Server: "+ ex.Server.ToString();
+
+            MessageBox.Show (str, "Database Exception");
+         }
+         catch (System.Exception ex)
+         {
+            string str;
+            str = "Source: " + ex.Source;
+            str += "\n" + "Exception Message: " + ex.Message;
+            MessageBox.Show (str, "ADO.NET Exception");
+         }
+         finally
+         {
+            if (conn.State == ConnectionState.Open)
+            {
+               MessageBox.Show(
+                   "Finally block closing the connection",
+                  "Finally"
+               );
+               conn.Close();
+            }
+         }

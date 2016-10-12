@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio Codename Orcas
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SQLServerProvider", "Chapter09\SQLServerProvider.csproj", "{5C42452F-54F1-42A8-A954-AD2F26624DD7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OleDbProvider", "OleDbProvider\OleDbProvider.csproj", "{21130283-B898-4623-9937-DC8ADC9A8077}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OdbcProvider", "OdbcProvider\OdbcProvider.csproj", "{9A604882-1953-432A-A0D7-71E5839AB912}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartDeviceProject1", "SmartDeviceProject1\SmartDeviceProject1.csproj", "{630C5B34-7A46-447F-BB2B-39545F5DFA8A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5C42452F-54F1-42A8-A954-AD2F26624DD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C42452F-54F1-42A8-A954-AD2F26624DD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C42452F-54F1-42A8-A954-AD2F26624DD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C42452F-54F1-42A8-A954-AD2F26624DD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21130283-B898-4623-9937-DC8ADC9A8077}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21130283-B898-4623-9937-DC8ADC9A8077}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21130283-B898-4623-9937-DC8ADC9A8077}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21130283-B898-4623-9937-DC8ADC9A8077}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A604882-1953-432A-A0D7-71E5839AB912}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A604882-1953-432A-A0D7-71E5839AB912}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A604882-1953-432A-A0D7-71E5839AB912}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A604882-1953-432A-A0D7-71E5839AB912}.Release|Any CPU.Build.0 = Release|Any CPU
+		{630C5B34-7A46-447F-BB2B-39545F5DFA8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{630C5B34-7A46-447F-BB2B-39545F5DFA8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{630C5B34-7A46-447F-BB2B-39545F5DFA8A}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{630C5B34-7A46-447F-BB2B-39545F5DFA8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{630C5B34-7A46-447F-BB2B-39545F5DFA8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{630C5B34-7A46-447F-BB2B-39545F5DFA8A}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

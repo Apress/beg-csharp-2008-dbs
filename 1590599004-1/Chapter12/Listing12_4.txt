@@ -1,0 +1,101 @@
+using System;
+using System.Data;
+using System.Data.SqlClient;
+
+namespace Chapter12
+{
+   class ResultSetInfo
+   {
+      static void Main(string[] args)
+      {
+         // connection string
+         string connString = @"
+            server = .\sqlexpress;
+            integrated security = true;
+            database = northwind
+         ";
+
+         // query
+         string sql = @"
+            select
+               contactname,
+               contacttitle
+            from
+               customers
+            where
+               contactname like 'M%'
+         ";
+
+         // create connection
+         SqlConnection conn = new SqlConnection(connString); 
+
+         try
+         {
+            conn.Open();
+
+            SqlCommand cmd = new SqlCommand(sql, conn);
+
+            SqlDataReader rdr = cmd.ExecuteReader();
+
+            // get column names
+            Console.WriteLine(
+               "Column Name:\t{0} {1}",
+               rdr.GetName(0).PadRight(25),
+               rdr.GetName(1));
+
+            // get column data types
+            Console.WriteLine(
+               "Data Type:\t{0} {1}",
+               rdr.GetDataTypeName(0).PadRight(25), 
+               rdr.GetDataTypeName(1));
+
+            Console.WriteLine();
+
+            while (rdr.Read())
+            {
+               // get column values for all rows
+               Console.WriteLine(
+                  "\t\t{0} {1}",
+                  rdr.GetString(0).ToString().PadRight(25),
+                  rdr.GetString(1));
+            }
+
+            // get number of columns
+            Console.WriteLine();
+            Console.WriteLine(
+               "Number of columns in a row: {0}",
+               rdr.FieldCount);
+
+            // get info about each column 
+            Console.WriteLine(
+               "'{0}' is at index {1} " +
+               "and its type is: {2}",
+               rdr.GetName(0),
+               rdr.GetOrdinal("contactname"),
+               rdr.GetFieldType(0));
+
+            Console.WriteLine(
+               "'{0}' is at index {1} " +
+               "and its type is: {2}",
+               rdr.GetName(1),
+               rdr.GetOrdinal("contacttitle"),
+               rdr.GetFieldType(1));
+
+            rdr.Close();
+         }
+         catch(Exception e)
+         {
+            Console.WriteLine("Error Occurred: " + e);
+         }
+         finally
+         {
+            conn.Close();
+         }
+      }
+   }
+}
+
+
+
+
+

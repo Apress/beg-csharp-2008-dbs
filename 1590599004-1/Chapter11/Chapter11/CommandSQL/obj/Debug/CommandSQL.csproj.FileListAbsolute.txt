@@ -1,0 +1,10 @@
+C:\Documents and Settings\Administrator\My Documents\Visual Studio Codename Orcas\Projects\Chapter11\Chapter11\bin\Debug\Chapter11.exe
+C:\Documents and Settings\Administrator\My Documents\Visual Studio Codename Orcas\Projects\Chapter11\Chapter11\bin\Debug\Chapter11.pdb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio Codename Orcas\Projects\Chapter11\Chapter11\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\My Documents\Visual Studio Codename Orcas\Projects\Chapter11\Chapter11\obj\Debug\Chapter11.exe
+C:\Documents and Settings\Administrator\My Documents\Visual Studio Codename Orcas\Projects\Chapter11\Chapter11\obj\Debug\Chapter11.pdb
+C:\Documents and Settings\Administrator\Desktop\Chapter11\CommandSQL\bin\Debug\Chapter11.exe
+C:\Documents and Settings\Administrator\Desktop\Chapter11\CommandSQL\bin\Debug\Chapter11.pdb
+C:\Documents and Settings\Administrator\Desktop\Chapter11\CommandSQL\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\Desktop\Chapter11\CommandSQL\obj\Debug\Chapter11.exe
+C:\Documents and Settings\Administrator\Desktop\Chapter11\CommandSQL\obj\Debug\Chapter11.pdb

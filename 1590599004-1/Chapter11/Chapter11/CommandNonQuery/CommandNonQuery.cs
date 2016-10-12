@@ -1,0 +1,95 @@
+﻿using System;
+using System.Data;
+using System.Data.SqlClient;
+
+namespace Chapter11
+{
+    class CommandNonQuery
+    {
+        static void Main()
+        {
+            // create connection
+            SqlConnection conn = new SqlConnection(@"
+            server = .\sqlexpress;
+            integrated security = true;
+            database = northwind
+         ");
+
+            // define scalar query
+            string sqlqry = @"
+            select
+               count(*)
+            from
+               employees
+         ";
+
+            // define insert statement
+            string sqlins = @"
+            insert into employees
+            (
+               firstname,
+               lastname
+            )
+            values('Zachariah', 'Zinn')
+         ";
+
+            // define delete statement
+            string sqldel = @"
+            delete from employees
+            where
+               firstname = 'Zachariah'
+               and
+               lastname = 'Zinn'
+         ";
+
+            // create commands
+            SqlCommand cmdqry = new SqlCommand(sqlqry, conn);
+            SqlCommand cmdnon = new SqlCommand(sqlins, conn);
+
+            try
+            {
+                // open connection
+                conn.Open();
+
+                // execute query to get number of employees
+                Console.WriteLine(
+                   "Before INSERT: Number of employees {0}\n"
+                  , cmdqry.ExecuteScalar()
+                );
+
+                // execute nonquery to insert an employee
+                Console.WriteLine(
+                   "Executing statement {0}"
+                 , cmdnon.CommandText
+                );
+                cmdnon.ExecuteNonQuery();
+                Console.WriteLine(
+                   "After INSERT: Number of employees {0}\n"
+                  , cmdqry.ExecuteScalar()
+                );
+
+                // execute nonquery to delete an employee
+                cmdnon.CommandText = sqldel;
+                Console.WriteLine(
+                   "Executing statement {0}"
+                 , cmdnon.CommandText
+                );
+                cmdnon.ExecuteNonQuery();
+                Console.WriteLine(
+                   "After DELETE: Number of employees {0}\n"
+                  , cmdqry.ExecuteScalar()
+                );
+            }
+            catch (SqlException ex)
+            {
+                Console.WriteLine(ex.ToString());
+            }
+            finally
+            {
+                conn.Close();
+                Console.WriteLine("Connection Closed.");
+            } 
+        }
+    }
+}
+

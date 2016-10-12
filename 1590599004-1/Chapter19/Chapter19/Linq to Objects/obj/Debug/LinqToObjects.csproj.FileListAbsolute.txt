@@ -1,0 +1,10 @@
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Chapter19\Chapter19\bin\Debug\Chapter19.exe
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Chapter19\Chapter19\bin\Debug\Chapter19.pdb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Chapter19\Chapter19\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Chapter19\Chapter19\obj\Debug\Chapter19.exe
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Chapter19\Chapter19\obj\Debug\Chapter19.pdb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Chapter19\Linq to Objects\bin\Debug\Chapter19.exe
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Chapter19\Linq to Objects\bin\Debug\Chapter19.pdb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Chapter19\Linq to Objects\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Chapter19\Linq to Objects\obj\Debug\Chapter19.exe
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Chapter19\Linq to Objects\obj\Debug\Chapter19.pdb

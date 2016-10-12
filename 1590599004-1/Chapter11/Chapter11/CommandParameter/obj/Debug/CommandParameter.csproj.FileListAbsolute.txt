@@ -1,0 +1,10 @@
+C:\Documents and Settings\Administrator\My Documents\Visual Studio Codename Orcas\Projects\Chapter11\CommandParameter\bin\Debug\CommandParameter.exe
+C:\Documents and Settings\Administrator\My Documents\Visual Studio Codename Orcas\Projects\Chapter11\CommandParameter\bin\Debug\CommandParameter.pdb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio Codename Orcas\Projects\Chapter11\CommandParameter\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\My Documents\Visual Studio Codename Orcas\Projects\Chapter11\CommandParameter\obj\Debug\CommandParameter.exe
+C:\Documents and Settings\Administrator\My Documents\Visual Studio Codename Orcas\Projects\Chapter11\CommandParameter\obj\Debug\CommandParameter.pdb
+C:\Documents and Settings\Administrator\Desktop\Chapter11\CommandParameter\obj\Debug\CommandParameter.exe
+C:\Documents and Settings\Administrator\Desktop\Chapter11\CommandParameter\obj\Debug\CommandParameter.pdb
+C:\Documents and Settings\Administrator\Desktop\Chapter11\CommandParameter\bin\Debug\CommandParameter.exe
+C:\Documents and Settings\Administrator\Desktop\Chapter11\CommandParameter\bin\Debug\CommandParameter.pdb
+C:\Documents and Settings\Administrator\Desktop\Chapter11\CommandParameter\obj\Debug\ResolveAssemblyReference.cache

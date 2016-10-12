@@ -1,0 +1,11 @@
+exec sp_Trans_Test 'a','a','z'
+
+exec sp_Trans_test 'aa','aa','z'
+
+exec sp_Trans_Test 'a','a','aa'
+
+exec sp_Trans_Test 'aaa','aaa','ALFKI'
+
+select * from customers
+
+using System.Data.SqlClient;

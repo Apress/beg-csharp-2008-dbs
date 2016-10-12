@@ -1,0 +1,79 @@
+using System;
+using System.Data;
+using System.Data.SqlClient;
+
+namespace Chapter6
+{
+   class CallSp2
+   {
+      static void Main()
+      {
+
+         // create connection
+         SqlConnection conn = new SqlConnection(@"
+            server = .\sqlexpress;
+            integrated security = true;
+            database = northwind
+         ");
+            try
+            {
+                // open connection
+                conn.Open();
+
+                // create command
+                SqlCommand cmd = conn.CreateCommand();
+
+                // specify stored procedure to execute
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.CommandText = "sp_orders_by_employeeid2";
+
+                // create input parameter
+                SqlParameter inparm = cmd.Parameters.Add(
+                "@employeeid", SqlDbType.Int);
+                inparm.Direction = ParameterDirection.Input;
+                inparm.Value = 2;
+
+                // create output parameter
+                SqlParameter ouparm = cmd.Parameters.Add(
+                "@ordercount", SqlDbType.Int);
+                ouparm.Direction = ParameterDirection.Output;
+
+                // create return value parameter
+                SqlParameter retval = cmd.Parameters.Add(
+                "return_value", SqlDbType.Int);
+                retval.Direction = ParameterDirection.ReturnValue;
+
+                // execute command
+                SqlDataReader rdr = cmd.ExecuteReader();
+
+               // Process the result set
+                 while (rdr.Read())
+                 {
+                    Console.WriteLine(
+                    "{0} {1}"
+                    , rdr[0].ToString().PadRight(5)
+                    , rdr[1].ToString());
+                 }
+                 rdr.Close();
+              
+               // display output parameter value
+               Console.WriteLine(
+               "The output parameter value is {0}"
+             , cmd.Parameters["@ordercount"].Value);
+
+              // display return value
+              Console.WriteLine(
+               "The return value is {0}"
+             , cmd.Parameters["return_value"].Value);
+            }
+            catch (SqlException ex)
+            {
+                Console.WriteLine(ex.ToString());
+            }
+            finally
+            {
+                conn.Close();
+            }
+      }
+   }
+}

@@ -1,0 +1,148 @@
+WITH TopSales (SalesPersonID,TerritoryID,NumberOfSales) 
+      AS
+      ( 
+         SELECT SalesPersonID,TerritoryID, Count(*)
+         FROM Sales.SalesOrderHeader 
+         GROUP BY SalesPersonID, TerritoryID
+      )
+         SELECT * FROM TopSales
+         WHERE SalesPersonID IS NOT NULL
+         ORDER BY NumSales DESC
+
+Use AdventureWorks
+Go
+Select CardType, ExpYear,count(CardType) AS 'Total Cards'
+from Sales.CreditCard
+Where ExpYear in (2006,2007)
+group by ExpYear,CardType
+order by CardType,ExpYear
+
+
+Use AdventureWorks
+Go
+select CardType ,[2006] as Year2006,[2007] as Year2007
+from
+(
+select CardType,ExpYear
+from Sales.CreditCard
+)piv Pivot
+(
+count(ExpYear) for ExpYear in ([2006],[2007])
+)as carddetail
+order by CardType
+
+
+select SalesPersonID, Bonus, 
+ROW_NUMBER() over (order by SalesPersonID) as [RowCount]
+from Sales.SalesPerson
+
+select CustomerID, TerritoryID ,
+Row_Number() over (Partition by TerritoryID 
+order by CustomerID) as [RowCount]
+from Sales.Customer
+Where TerritoryID in (1,2)AND 
+CustomerID Between 1 and 75
+
+select Title + ' ' + FirstName + ' ' + LastName 
+as "Person Name"
+from Person.Contact
+where FirstName like 'A%' and Title is not null
+
+select Title + ' ' + FirstName + ' ' + LastName 
+as "Person Name"
+from Person.Contact
+where FirstName like 'B____a' and Title is not null
+
+
+select Title + ' ' + FirstName + ' ' + LastName 
+as "Person Name"
+from Person.Contact
+where FirstName like '[A-I]__' and Title is not null
+
+select Title + ' ' + FirstName + ' ' + LastName 
+as "Person Name"
+from Person.Contact
+where FirstName like '_[^I][a]__' and Title is not null
+
+select SalesOrderID,min(UnitPrice)as "Min",
+max(UnitPrice) as "Max",Sum(UnitPrice) as "Sum",
+Avg(UnitPrice)as "Avg"
+from Sales.SalesOrderDetail
+where SalesOrderID between 43659 and 43663
+group by SalesOrderID
+
+Select count(*) as "Total Records" from Person.Contact
+Select count(Title)as "Not Null Titles" from Person.Contact
+
+select
+  	 current_timestamp  'standard datetime',
+  	 getdate()    'Transact-SQL datetime',
+  	 datepart(year, getdate()) 'datepart year',
+  	 year(getdate())  'year function',
+ 	  datepart(hour, getdate()) 'hour
+
+select
+   orders.orderid,
+   orders.customerid,
+   employees.lastname
+from
+   orders inner join employees
+   on
+   orders.employeeid = employees.employeeid
+
+
+select
+   o.orderid,
+   o.customerid,
+   e.lastname
+from
+   orders o inner join employees e
+   on
+   o.employeeid = e.employeeid
+
+
+select
+   o.orderid    OrderID,
+   o.customerid CustomerID,
+   e.lastname   Employee
+from
+   orders o, employees e
+   where
+      o.employeeid = e.employeeid
+
+
+select
+   o.orderid     OrderID,
+   c.companyname CustomerName,
+   e.lastname    Employee
+from
+   orders o  inner join    employees e
+   on  o.employeeid = e.employeeid 
+  inner join  customers c
+   on   o.customerid = c.customerid
+
+insert into employees
+(
+   firstname,
+   lastname
+)
+values ('Amy', 'Abrams')
+
+
+select
+ 	  e.firstname,
+   	  e.lastname,
+   	  o.orderid
+	from
+	   employees e  left outer join  orders o
+ 	   on  e.employeeid = o.employeeid
+	   order by  2, 1
+
+
+
+
+
+
+
+
+

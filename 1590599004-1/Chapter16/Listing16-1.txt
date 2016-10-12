@@ -1,0 +1,28 @@
+         // Create connection
+         SqlConnection conn = new SqlConnection(@"
+            data source = .\sqlexpress;
+            integrated security = true;
+            database = northwind
+         ");
+
+         // Create command
+         SqlCommand cmd = conn.CreateCommand();
+
+         // Specify that a stored procedure is to be executed
+         cmd.CommandType = CommandType.StoredProcedure;
+ 
+         // Deliberately fail to specify the procedure
+         // cmd.CommandText = "sp_Select_All_Employees";
+
+         // Open connection
+         conn.Open();
+         // Create data reader
+         SqlDataReader dr = cmd.ExecuteReader();
+         // Close reader
+         dr.Close();
+
+         if (conn.State == ConnectionState.Open)
+         {
+            MessageBox.Show ("closing the connection");
+            conn.Close();
+         }

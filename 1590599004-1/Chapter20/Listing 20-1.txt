@@ -1,0 +1,10 @@
+EntityConnection connection = new EntityConnection("name=NorthwindEntitiesConnectionString");
+             connection.Open();
+             EntityCommand command = connection.CreateCommand();
+             command.CommandText = "select E.FirstName,E.LastName from NorthwindEntitiesConnectionString.Employees as E";
+             EntityDataReader reader = command.ExecuteReader(CommandBehavior.SequentialAccess);
+                lstEmployees.Items.Clear();
+                while (reader.Read())
+                {
+                    lstEmployees.Items.Add(reader["FirstName"] + " " + reader["LastName"]);
+                }

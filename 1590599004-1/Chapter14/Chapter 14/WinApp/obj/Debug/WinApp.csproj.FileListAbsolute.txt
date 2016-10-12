@@ -1,0 +1,10 @@
+C:\Documents and Settings\Administrator\My Documents\Visual Studio Codename Orcas\Projects\Chapter 14\WinApp\bin\Debug\WindowsApplication1.exe
+C:\Documents and Settings\Administrator\My Documents\Visual Studio Codename Orcas\Projects\Chapter 14\WinApp\bin\Debug\WindowsApplication1.pdb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio Codename Orcas\Projects\Chapter 14\WinApp\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\My Documents\Visual Studio Codename Orcas\Projects\Chapter 14\WinApp\obj\Debug\WindowsApplication1.WinApp.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio Codename Orcas\Projects\Chapter 14\WinApp\obj\Debug\WindowsApplication1.Properties.Resources.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio Codename Orcas\Projects\Chapter 14\WinApp\obj\Debug\WinApp.csproj.GenerateResource.Cache
+C:\Documents and Settings\Administrator\My Documents\Visual Studio Codename Orcas\Projects\Chapter 14\WinApp\obj\Debug\WindowsApplication1.exe
+C:\Documents and Settings\Administrator\My Documents\Visual Studio Codename Orcas\Projects\Chapter 14\WinApp\obj\Debug\WindowsApplication1.pdb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio Codename Orcas\Projects\Chapter 14\WinApp\obj\Debug\WindowsApplication1.AddNames.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio Codename Orcas\Projects\Chapter 14\WinApp\obj\Debug\WindowsApplication1.ParentForm.resources

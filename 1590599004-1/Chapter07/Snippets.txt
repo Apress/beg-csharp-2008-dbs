@@ -1,0 +1,76 @@
+SELECT ProductModelID, Name
+FROM Production.ProductModel
+WHERE ProductModelID  between 98 and 101
+FOR XML RAW
+
+
+SELECT ProductModelID, Name
+FROM Production.ProductModel
+WHERE ProductModelID  between 98 and 101
+FOR XML RAW,ELEMENTS
+
+
+SELECT ProductModelID, Name
+FROM Production.ProductModel
+WHERE ProductModelID  between 98 and 101
+FOR XML RAW ('ProductModelDetail'),ELEMENTS
+
+
+SELECT Cust.CustomerID, 
+    OrderHeader.CustomerID,
+    OrderHeader.SalesOrderID, 
+    OrderHeader.Status,
+    Cust.CustomerType
+FROM Sales.Customer Cust, Sales.SalesOrderHeader OrderHeader
+WHERE Cust.CustomerID = OrderHeader.CustomerID
+ORDER BY Cust.CustomerID
+FOR XML AUTO
+
+create table xmltest
+(
+   xid  int not null primary key,
+   xdoc xml not null
+)
+
+
+insert into xmltest
+values(
+1,
+'
+<states>
+   <state>
+      <abbr>CA</abbr>
+      <name>California</name>
+      <city>Berkeley</city>
+      <city>Los Angeles</city>
+      <city>Wilmington</city>
+   </state>
+   <state>
+      <abbr>DE</abbr>
+      <name>Delaware</name>
+      <city>Newark</city>
+      <city>Wilmington</city>
+   </state>
+</states>
+'
+)
+
+insert into xmltest
+values(
+2,
+'
+<states>
+   <state abbr="CA" name="California">
+      <city name="Berkeley"/>
+      <city name="Los Angeles"/>
+      <city name="Wilmington"/>
+   </state>
+   <state abbr="DE" name="Delaware">
+      <city name="Newark"/>
+      <city name="Wilmington"/>
+   </state>
+</states>
+'
+)
+
+select * from xmltest

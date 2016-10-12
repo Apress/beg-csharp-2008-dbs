@@ -1,0 +1,52 @@
+using System;
+using System.Data;
+using System.Data.SqlClient;
+
+namespace Chapter6
+{
+    class CallSp1
+    {
+        static void Main()
+        {
+            // create connection
+            SqlConnection conn = new SqlConnection
+            (@"server = .\sqlexpress;
+            integrated security = true;
+            database = northwind");
+
+            try
+            {
+                 // open connection
+                 conn.Open();
+                 // create command
+                 SqlCommand cmd = conn.CreateCommand();
+
+                 // specify stored procedure to  execute
+                 cmd.CommandType = CommandType.StoredProcedure;
+                 cmd.CommandText = "sp_select_employees_details";
+
+                 // execute command
+                 SqlDataReader rdr = cmd.ExecuteReader();
+
+                 // Process the result set
+                 while (rdr.Read())
+                 {
+                     Console.WriteLine(
+                     "{0} {1} {2}"
+                     ,rdr[0].ToString().PadRight(5)
+                     ,rdr[1].ToString()
+                     ,rdr[2].ToString());                
+                 }
+                    rdr.Close();
+            }
+            catch (SqlException ex)
+            {
+                 Console.WriteLine(ex.ToString());
+            }
+            finally
+            {
+                 conn.Close();
+            }
+        }
+    }
+}

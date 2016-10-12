@@ -1,0 +1,71 @@
+create procedure sp_Select_All_Employees
+as
+   select
+      employeeid,
+      firstname,
+      lastname
+   from
+      employees
+
+
+execute sp_Select_All_Employees
+
+
+create procedure sp_Orders_By_EmployeeId
+   @employeeid int
+as
+   select  orderid, customerid
+   from orders 
+   where  employeeid = @employeeid;
+
+
+execute sp_Orders_By_EmployeeId 2
+
+
+create procedure sp_Orders_By_EmployeeId2
+   @employeeid int,
+   @ordercount int = 0 output
+as
+   select orderid,customerid
+   from orders
+   where employeeid = @employeeid;
+
+   select  @ordercount = count(*)
+   from orders
+   where  employeeid = @employeeid
+
+   return @ordercount
+
+
+Declare @return_value int,
+@ordercount int
+
+Execute @return_value=sp_Orders_By_EmployeeId2
+@employeeId=2,
+@ordercount=@ordercount output
+
+Select @ordercount as N'@ordercount'
+
+Select 'Return value'=@return_value
+
+
+Alter procedure sp_Select_All_Employees
+as
+   select employeeid,firstname,lastname
+   from employees
+order by lastname,firstname
+
+
+
+Execute sp_Select_All_Employees
+
+
+
+Execute sp_helptext 'sp_Select_All_Employees'
+
+
+
+Execute sp_rename 'sp_Select_All_Employees', 'sp_Select_Employees_Details' 
+
+
+Drop procedure sp_Select_Employees_Details

@@ -1,0 +1,59 @@
+         // Create connection
+         SqlConnection conn = new SqlConnection(@"
+            data source = .\sqlexpress;
+            integrated security = true;
+            database = northwind
+         ");
+
+         // Create command
+         SqlCommand cmd = conn.CreateCommand();
+
+         // Specify that a stored procedure is to be executed
+         cmd.CommandType = CommandType.StoredProcedure;
+         cmd.CommandText = "sp_Select_All_Employees";
+
+         try
+         {
+            // Open connection
+            conn.Open();
+
+            // Create data reader
+            SqlDataReader dr = cmd.ExecuteReader();
+ 
+            // Access nonexistent column
+            string str = dr.GetValue(20).ToString();
+
+            // Close reader
+            dr.Close();
+         }
+         catch (System.InvalidOperationException ex)
+         {
+            string str; 
+            str = "Source: " + ex.Source;
+            str += "\n" + "Message: "+ ex.Message;
+            str += "\n" + "\n";
+            str += "\n" + "Stack Trace: " + ex.StackTrace;
+            MessageBox.Show (str, "Specific Exception");
+         }
+         catch (SqlException ex)
+         {
+            string str;
+            str = "Source: " + ex.Source;
+            str += "\n" + "Exception Message: " + ex.Message;
+            MessageBox.Show (str, "Database Exception");
+         }
+         catch (System.Exception ex)
+         {
+            string str;
+            str = "Source: " + ex.Source;
+            str += "\n" + "Exception Message: " + ex.Message;
+            MessageBox.Show (str, "Non-Database Exception");
+         }
+         finally
+         {
+            if (conn.State == ConnectionState.Open)
+            {
+               MessageBox.Show ("Finally block closing the connection", "Finally");
+               conn.Close();
+            }
+         }
